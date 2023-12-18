@@ -22,7 +22,7 @@
 |  15               |  description               | TEXT                  |    NULL        |
 |  16               |  car_equipment             | TEXT                  |    NULL        |
 |  17               |  car_previous_owner        | TINYINT - DEFAULT(0)  |    NOTNULL     |
-|  18               |  traction                  | VARCHAR(255)          |    NULL        |
+|  18               |  traction                  | VARCHAR(255)          |    NOTNULL     |
 |  19               | license_plate              | VARCHAR(255) - UNIQUE |    NOTNULL     |
 |  20               | country_of_origin          | VARCHAR(255)          |    NULL        |
 |  21               |  warranty                  | TINYINT - DEFAULT(0)  |    NOTNULL     |
@@ -30,7 +30,6 @@
 |  21               |  car_dealer_contact        | VARCHAR(255)          |    NOTNULL     |
 
 
-
-
+![Alt text](drawSQL-used-cars-export-2023-12-18-1.png)
 
 
